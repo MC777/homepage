@@ -1,0 +1,44 @@
+body {
+	background: #fefefe
+}
+
+.mainHeader {
+	color: tomato;
+}
+
+p {
+	color: darkblue;
+}
+
+.sectionHeader {
+	color: #1460AA;
+	font-size: 64px;
+}
+
+#pamietniczek {
+	background: hotpink;
+}
+
+.paragraphLvlOne {
+	color: rgb(202, 5, 169)
+}
+
+.paragraphLvlTwo {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.paragraphLvlThree {
+	font-size: 10px;
+}
+
+.paragraphLvlFour {
+	scroll-margin-left: 23px;
+}
+
+.paragraphLvlFive {
+	columns: one;
+}
+
+.mainFooter{
+	color: rebeccapurple;
+}
