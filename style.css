@@ -11,16 +11,7 @@ p {
 	color: darkblue;
 }
 
-.sectionHeader {
-	color: #1460AA;
-	font-size: 64px;
-}
-
-#pamietniczek {
-	background: hotpink;
-}
-
-.paragraphLvlOne {
+.paragraphLvlOne, .paragraphLvlTwo, .paragraphLvlThree, .paragraphLvlFour, .paragraphLvlFive {
 	color: rgb(202, 5, 169)
 }
 
