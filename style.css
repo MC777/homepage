@@ -15,16 +15,8 @@ p {
 	color: rgb(202, 5, 169)
 }
 
-.paragraphLvlTwo {
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.paragraphLvlThree {
-	font-size: 10px;
-}
-
-.paragraphLvlFour {
-	scroll-margin-left: 23px;
+.mainFooter{
+	color: rebeccapurple;
 }
 
 .paragraphLvlFive {
