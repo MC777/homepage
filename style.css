@@ -46,3 +46,42 @@ p {
 .link{
 	color: #1A936F;
 }
+
+.box{
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	border: 2px solid red;
+	background: yellowgreen;
+	box-sizing: border-box;
+	position: sticky;
+	top: 0px;
+}
+
+.top{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+
+.navigation{
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left: 0;
+	box-sizing: border-box;
+	padding: 15px;
+	background: #fefefe;
+}
+
+.korsi{
+	width: 100%;
+	max-width: 200px;
+	display: block;
+	float: left;
+	margin: 0 16px 16px 0;
+}
+
+.diary{
+clear: left;
+}
