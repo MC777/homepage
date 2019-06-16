@@ -33,16 +33,14 @@ p {
 	border-radius: 20px;
 }
 
-.mainFooter{
+.main__Footer{
 	color: rebeccapurple;
 }
 
 .thirdHeader{
 	color: #0496FF
 }
-.link{
-	color: #1A936F;
-}
+
 
 .box{
 	width: 200px;
