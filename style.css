@@ -69,7 +69,34 @@ p {
 	background: #fefefe;
 }
 
-.korsi{
+.navigation__link{
+	color: #1A936F;
+}
+
+.diary{
+clear: left;
+}
+
+.about{
+
+}
+
+.about__header{
+	color: #1460aa;
+}
+
+.about__paragraph{
+	margin: 0;
+	padding: 0 0 16px 0;
+	font-size: 16px;
+}
+
+.about__paragraph--mini{
+	font-size: 12px;
+	color: #FF6700;
+}
+
+.about__picture{
 	width: 100%;
 	max-width: 200px;
 	display: block;
