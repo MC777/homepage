@@ -3,19 +3,16 @@ body {
 	color: #333;
 }
 
-.whoHeader, .mainHeader, .sectionHeader {
+.whoHeader, .main__Header, .diary__header {
 	color: #00487c;
 }
 
-.mainHeader{
+.main__Header{
 	margin: 10px 0 30px 0;
 }
 
-.about{
-	position: relative;
-}
 
-.sectionHeader{
+.diary__header{
 clear: left;
 }
 
