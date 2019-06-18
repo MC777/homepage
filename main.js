@@ -19,6 +19,23 @@ const about = document.querySelector('.about__paragraph--js');
 console.log(about.innerHTML);
 about.innerHTML = `<strong>Nazywam</strong> sie ${name} i mam ${age} lat`;
 
-const wel = document.querySelector('.welcome');
+const wel = document.querySelector('.welcome__paragraph--js');
 console.log(wel.innerHTML);
 wel.innerHTML = `Witaj ${name} na mojej stronie!`
+
+
+function calculate(x){
+  x = x + 3;
+  console.log(x);
+  return x*7;
+}
+
+console.log(calculate(2));
+
+const calculateFat = (x) =>{
+  x = x + 1;
+  console.log(x);
+  return x+5;
+}
+
+console.log(calculateFat(1));
