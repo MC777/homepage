@@ -3,17 +3,9 @@ body {
 	color: #333;
 }
 
-.whoHeader, .main__Header, .diary__header {
+.diary__header {
 	color: #00487c;
-}
-
-.main__Header{
-	margin: 10px 0 30px 0;
-}
-
-
-.diary__header{
-clear: left;
+	clear: left;
 }
 
 .main{
