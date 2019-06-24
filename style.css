@@ -48,50 +48,59 @@ p {
 	top: 0px;
 }
 
-.top{
+.top {
 	position: fixed;
 	bottom: 10px;
 	right: 10px;
 }
 
-.navigation{
+.site-header {
 	background: #fefefe;
 	box-sizing: border-box;
 	left: 0;
 	padding: 15px;
 	position: fixed;
 	top: 0px;
-	width: 100%;	
+	width: 100%;
 }
 
-.navigation__link{
+.navigation {}
+
+.navigation__list {
+	list-style: none;
+	padding: 0;
+}
+
+.navigation__item {
+	display: inline;
+}
+
+.navigation__link {
 	color: #1A936F;
 }
 
-.diary{
-clear: left;
+.diary {
+	clear: left;
 }
 
-.about{
+.about {}
 
-}
-
-.about__header{
+.about__header {
 	color: #1460aa;
 }
 
-.about__paragraph{
+.about__paragraph {
 	margin: 0;
 	padding: 0 0 16px 0;
 	font-size: 16px;
 }
 
-.about__paragraph--mini{
+.about__paragraph--mini {
 	font-size: 12px;
 	color: #FF6700;
 }
 
-.about__picture{
+.about__picture {
 	width: 100%;
 	max-width: 200px;
 	display: block;
