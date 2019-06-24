@@ -99,39 +99,60 @@ clear: left;
 	margin: 0 16px 16px 0;
 }
 
-.about__link{
+.about__link {
 	color: #1A936F;
 }
 
-.day{
+.day {
 	padding: 16px;
 }
 
-.day__header{
+.day__header {
 	margin: 0 0 16px;
 	color: #0496FF;
 	font-size: 20px;
 }
 
-.day__header--sunday{
+.day__header--sunday {
 	color: darkred;
 }
 
-.day__paragraph{
+.day__paragraph {
 	line-height: 24px;
 	padding: 0;
 	margin: 0;
 }
 
-.day__link{
+.day__link {
 	color: #1A936F;
 }
 
-.header{
+.header {
 	color: #00487c;
 }
 
-.header__title{
+.header__title {
 	color: #00487c;
 	margin-bottom: 48px;
+}
+
+.hobby {}
+
+.hobby__list {
+	list-style: none;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
 }
