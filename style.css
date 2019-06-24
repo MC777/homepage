@@ -16,7 +16,7 @@ body {
 	clear: left;
 }
 
-.main{
+.main {
 	width: 100%;
 	max-width: 700px;
 	margin: 32px auto;
@@ -33,11 +33,11 @@ p {
 	border-radius: 20px;
 }
 
-.main__Footer{
+.main__Footer {
 	color: rebeccapurple;
 }
 
-.box{
+.box {
 	width: 200px;
 	height: 200px;
 	padding: 10px;
