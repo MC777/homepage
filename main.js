@@ -40,3 +40,9 @@ const calculateFat = (x) =>{
 }
 
 console.log(calculateFat(1));
+
+const welcomeMessage = (x,y) => {
+  return `Witaj ${x} ${y} na mojej stronie!`
+}
+
+console.log(welcomeMessage(name, surname))
