@@ -1,5 +1,6 @@
 console.log('siema');
 const name = 'XXX';
+const surname = 'BBB'
 const age = 31;
 let isTrue = true;
 isTrue = false;
