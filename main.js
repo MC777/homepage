@@ -25,23 +25,23 @@ console.log(wel.innerHTML);
 wel.innerHTML = `Witaj ${name} na mojej stronie!`
 
 
-function calculate(x){
+function calculate(x) {
   x = x + 3;
   console.log(x);
-  return x*7;
+  return x * 7;
 }
 
 console.log(calculate(2));
 
-const calculateFat = (x) =>{
+const calculateFat = (x) => {
   x = x + 1;
   console.log(x);
-  return x+5;
+  return x + 5;
 }
 
 console.log(calculateFat(1));
 
-const welcomeMessage = (x,y) => {
+const welcomeMessage = (x, y) => {
   return `Witaj ${x} ${y} na mojej stronie!`
 }
 
