@@ -216,26 +216,50 @@ tr:nth-child(even) {
 	background-color: #f2f2f2;
 }
 
-.grid{
+.grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-column-gap: 16px;
 	grid-row-gap: 16px;
-
 }
 
-@media screen and (max-width: 740px){
-	.grid{
+@media not screen and (min-width: 640px) and (max-width: 1000px) {
+	.grid {
 		grid-template-columns: 1fr;
 	}
-
-	.day__link{
+	.day__link {
 		color: hotpink;
 	}
 }
 
-@media (min-width: 100px){
-	.main{
+@media (min-width: 641px) {
+	.main {
 		max-width: 900px;
+	}
+	.navigation__switcher {
+		display: none;
+	}
+}
+
+@media(max-width: 640px) {
+	.navigation__list {
+		flex-direction: column;
+		display: none;
+	}
+	.navigation__list--visible {
+		display: flex;
+	}
+	.navigation__item {
+		margin: 16px;
+	}
+	.site-header {
+		min-height: 48px;
+	}
+	.navigation__switcher {
+		border: none;
+		background: none;
+		position: absolute;
+		right: 16px;
+		top: 16px;
 	}
 }
