@@ -134,10 +134,42 @@ p {
 	padding: 16px;
 }
 
+.day:not(day--special){
+	background: violet;
+}
+
+.diary:first-child{
+	background: yellow;
+}
+
+.diary:last-child{
+	background: yellow;
+}
+
 .day__header {
 	margin: 0 0 16px;
 	color: #0496FF;
 	font-size: 20px;
+}
+
+.day__header::before{
+	content: "";
+	display: inline-block;
+	margin-right: 5px;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: yellow;
+}
+
+.day__header::after{
+	content: "";
+	display: inline-block;
+	margin-left: 5px;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: red;
 }
 
 .day__header--sunday {
