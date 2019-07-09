@@ -217,6 +217,10 @@ p {
 	margin-bottom: 48px;
 }
 
+.header__title--red {
+	color: darkred;
+}
+
 .hobby {}
 
 .hobby__list {
